@@ -8,11 +8,11 @@ main h1 {
 
 main p{
     font-size: large;
-    font-weight: border;
-    color: powderblue;
+    font-weight: bold;
+    color: rgb(5, 110, 124);
 }
 main dl{
     font-size: large;
-    font-weight: border;
-    color: powderblue;
+    font-weight: normal;
+    color: rgb(121, 11, 146);
 }
