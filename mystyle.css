@@ -1,0 +1,18 @@
+p {
+    color: red;
+        }
+main h1 {
+    font-size: xx-small;
+    font-weight: normal;
+}
+
+main p{
+    font-size: large;
+    font-weight: border;
+    color: powderblue;
+}
+main dl{
+    font-size: large;
+    font-weight: border;
+    color: powderblue;
+}
