@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="selectors.css">
+</head>
+<body>
+     <header>
+        <h1>Slade's Web Design Site</h1>
+        <p>Learn HTML and CSS</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+    </nav>
+    <main>
+        <h1 id="main-title">CSS Selectors</h1>
+        <p>Paragraph</p>
+        
+        <h2>1. Ways to select an item:</h2>
+        <Ul>
+            <li>Element / Tag Selector: Selects all elements of a specific type (e.g., p, div, h1).</li>
+            <li>Class Selector: Selects elements with a specific class attribute, prefixed with a dot (e.g., .button).</li>
+            <li>ID Selector: Selects a single, unique element with a <p class="highlight">specific ID</p>, prefixed with a hash (e.g., #header).</li>
+            <li>Attribute Selector: Selects elements based on an attribute or its value (e.g., input[type="text"]).</li>
+            <li>Pseudo-class Selector: Selects elements based on state or dynamic context (e.g., a:hover, li:first-child).</li>
+            <p>Combinator Selectors: Selects elements based on relationships (e.g., div > p for direct children, div p for descendants).</p>
+        </Ul>
+
+        <h2>2. Difference between an ID and a Class:</h2>
+        <p>ID: Unique within a page. Used to target a single, specific element. <span style = "color: red;" >High CSS</span> specificity.Class: Reusable. Can be applied to multiple elements on the same page, and a single element can have multiple classes.</p>
+
+        <h2>3. Difference between SPAN and DIV:</h2>
+        <p><span style = "color: red;" >DIV tag:</span> An inline-block / block-level container by default. Takes up the full width available and starts on a new line. Used to group larger structural blocks of HTML.SPAN tag: An inline container. Takes up only as much width as its content and does not break onto a new line. Used to target specific inline text or small fragments.</p>
+        
+        <h2>4. Difference between DIV and Semantic Tags (HEADER, MAIN, FOOTER):</h2>
+        <p>Unlike a <span style = "color: red;" >DIV tag:</span>, which is a non-semantic container with no inherent meaning, <span style = "color: red;" >HEADER, MAIN, and FOOTER</span> are semantic HTML5 tags that explicitly describe the purpose and structure of page content—defining introductory, primary, and concluding sections respectively.</p>
+        
+        <h2>5. Ways to select a color in CSS:</h2>
+        <p>In CSS, colors can be defined using preset keywords, numeric color-space models like <span style = "color: red;" >Hexadecimal, RGB/RGBA, and HSL/HSLA, or dynamic references:</span> such as system keywords and CSS variables.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kyosuke Kurokawa</p>
+    </footer>
+</body>
+</html>
