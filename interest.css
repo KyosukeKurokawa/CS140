@@ -1,18 +1,25 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(180deg,  #3f89de 0%,
+
+    background: linear-gradient(
+        180deg,
+        #3f89de 0%,
         #8c7fe0 30%,
         #E67E5C 65%,
         #FF7F50 85%,
-        #FFB347 100%);
+        #FFB347 100%
+    );
+
     color: #fffaf5;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
 
 #title {
     color: black;
 }
 
-}
 h1 {
     font-family: serif;
 }
@@ -28,5 +35,5 @@ span {
 }
 
 .special-text {
-    color: black;
+    color: blue;
 }
