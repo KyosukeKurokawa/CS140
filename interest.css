@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg,  #3f89de 0%,
+        #8c7fe0 30%,
+        #E67E5C 65%,
+        #FF7F50 85%,
+        #FFB347 100%);
+    color: #fffaf5;
+
+#title {
+    color: black;
+}
+
+}
+h1 {
+    font-family: serif;
+}
+
+h2 {
+    color: #fff7f0;
+    font-family: cursive;
+}
+
+span {
+    color: orange;
+    font-weight: bold;
+}
+
+.special-text {
+    color: black;
+}
